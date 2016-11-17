@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer: one
+  date: 2016-11-16
+  status: one
+
+two:
+  customer: two
+  date: 2016-11-16
+  status: two
