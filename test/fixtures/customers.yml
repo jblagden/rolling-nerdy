@@ -2,16 +2,16 @@
 #
 # Table name: customers
 #
-#  created_at  :datetime         not null
-#  email       :string
-#  full_name   :string
-#  id          :integer          not null, primary key
-#  province_id :integer          indexed
-#  updated_at  :datetime         not null
-#
-# Indexes
-#
-#  index_customers_on_province_id  (province_id)
+#  id             :integer          not null, primary key
+#  full_name      :string
+#  email          :string
+#  password       :string
+#  street_address :string
+#  city           :string
+#  province_id    :integer
+#  zip_code       :string
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
