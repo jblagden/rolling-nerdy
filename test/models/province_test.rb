@@ -2,10 +2,10 @@
 #
 # Table name: provinces
 #
+#  created_at :datetime         not null
 #  id         :integer          not null, primary key
 #  name       :string
 #  tax        :integer
-#  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
 

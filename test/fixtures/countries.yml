@@ -2,10 +2,10 @@
 #
 # Table name: countries
 #
+#  created_at :datetime         not null
 #  id         :integer          not null, primary key
 #  name       :string
 #  tax_rate   :decimal(, )
-#  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
 

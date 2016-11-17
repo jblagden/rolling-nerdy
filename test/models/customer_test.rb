@@ -2,12 +2,16 @@
 #
 # Table name: customers
 #
-#  id          :integer          not null, primary key
-#  full_name   :string
-#  email       :string
-#  province_id :integer
 #  created_at  :datetime         not null
+#  email       :string
+#  full_name   :string
+#  id          :integer          not null, primary key
+#  province_id :integer          indexed
 #  updated_at  :datetime         not null
+#
+# Indexes
+#
+#  index_customers_on_province_id  (province_id)
 #
 
 require 'test_helper'
