@@ -1,11 +1,16 @@
-<div class="product">
-  <h4><%= product.name %></h4>
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">
+      <%= product.name %>
+    </h4>
+  </div>
   <p>
     Price: <%= product.price %>
   </p>
   <p>
-    <%= product.colour.name %>
+    Colour: <%= product.colour.name %>
   </p>
   <p>
-    <%= product.material.name %>
+    Material: <%= product.material.name %>
+  </div>
 </div>
