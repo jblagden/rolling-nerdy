@@ -10,6 +10,7 @@
 #  price       :integer
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
+#  image       :string
 #
 
 class Product < ApplicationRecord
@@ -18,4 +19,6 @@ class Product < ApplicationRecord
   belongs_to :colour
 
   validates :name, presence: true
+
+  mount_uploader :image, ImageUploader
 end
