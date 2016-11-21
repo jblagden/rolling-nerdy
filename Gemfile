@@ -14,11 +14,17 @@ gem 'bootstrap', '~> 4.0.0.alpha5'
 # Carrierwave
 gem 'carrierwave'
 
-# Better Errors
 group :development do
+  
+# Better Errors
   gem 'better_errors'
   gem 'binding_of_caller'
+
+# Rails Panel
   gem 'meta_request'
+
+# RuboCop
+  gem 'rubocop', require: false
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
