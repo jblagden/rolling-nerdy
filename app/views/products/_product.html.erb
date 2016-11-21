@@ -4,6 +4,9 @@
       <%= product.name %>
     </h4>
   </div>
+  <% if product.image.present? %>
+    <%= image_tag product.image, clasS: 'card-img-top img-fluid mx-auto d-block' %>
+  <% end %>
   <p>
     Price: <%= product.price %>
   </p>
