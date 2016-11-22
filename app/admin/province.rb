@@ -1,6 +1,6 @@
 ActiveAdmin.register Province do
 
-  permit_params :name, :tax_rate, :country_id
+  permit_params :name, :tax_rate, :country_id, :useshst
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
