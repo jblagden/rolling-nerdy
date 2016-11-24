@@ -16,4 +16,8 @@ class Order < ApplicationRecord
   belongs_to :customer
   belongs_to :status
 
+  has_many :line_items
+  before_create :set_order_status
+  before_save :update_subtotal
+
 end
