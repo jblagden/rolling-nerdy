@@ -8,4 +8,5 @@ class ApplicationController < ActionController::Base
     else
       Order.new
     end
+  end
 end
