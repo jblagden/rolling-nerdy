@@ -20,5 +20,7 @@ class Product < ApplicationRecord
 
   validates :name, presence: true
 
+  default_scope { where(active: true) }
+
   mount_uploader :image, ImageUploader
 end
