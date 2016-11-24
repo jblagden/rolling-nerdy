@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :products, only: [:index]
-  recource :cart, only: [:show]
+  resource :cart, only: [:show]
   resources :line_items, only: [:create, :update, :destroy]
   root to: "products#index"
 

@@ -1,19 +1,21 @@
-<div class="card">
-  <div class="card-block">
-    <h4 class="card-title">
-      <%= product.name %>
-    </h4>
-  </div>
-  <% if product.image.present? %>
-    <%= image_tag product.image, clasS: 'card-img-top img-fluid mx-auto d-block' %>
-  <% end %>
-  <p>
-    Price: <%= product.price %>
-  </p>
-  <p>
-    Colour: <%= product.colour.name %>
-  </p>
-  <p>
-    Material: <%= product.material.name %>
+<div class="col-xs-4">
+  <div class="card">
+    <div class="card-block">
+      <h4 class="card-title">
+        <%= product.name %>
+      </h4>
+    </div>
+    <% if product.image.present? %>
+      <%= image_tag product.image, class: 'card-img-top img-fluid mx-auto d-block' %>
+    <% end %>
+    <p>
+      Price: <%= product.price %>
+    </p>
+    <p>
+      Colour: <%= product.colour.name %>
+    </p>
+    <p>
+      Material: <%= product.material.name %>
+    </div>
   </div>
 </div>
