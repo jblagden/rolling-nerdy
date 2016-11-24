@@ -8,6 +8,7 @@
 #  country_id :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  useshst    :boolean
 #
 
 require 'test_helper'

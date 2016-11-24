@@ -7,10 +7,10 @@
 #  material_id :integer
 #  type_id     :integer
 #  colour_id   :integer
-#  price       :integer
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  image       :string
+#  price       :decimal(12, 3)
 #
 
 module ProductsHelper
