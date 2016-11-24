@@ -1,10 +1,8 @@
 Rails.application.routes.draw do
-
-  get 'line_items/create'
-
-  get 'line_items/update'
-
-  get 'line_items/destroy'
+  resources :products, only: [:index]
+  recource :cart, only: [:show]
+  resources :line_items, only: [:create, :update, :destroy]
+  root to: "products#index"
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
