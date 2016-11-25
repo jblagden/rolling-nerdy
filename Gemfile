@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'stripe'
 
 # dotenv - sercure storage of environment variables
-gem 'dotenv-rails', :groups => [:development, :test]
+gem 'dotenv-rails', groups: [:development, :test]
 
 # Active Admin gems
 gem 'activeadmin', github: 'activeadmin'
