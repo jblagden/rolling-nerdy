@@ -27,7 +27,7 @@ class ChargesController < ApplicationController
   private
 
   def set_description
-    @description = "Dice!"
+    @description = 'Dice!'
   end
 
   def amount_to_be_charged
