@@ -13,16 +13,22 @@ class ChargesController < ApplicationController
                                       amount: @amount,
                                       description: @description)
 
+    redirect_to thanks_path
+    
   rescue Stripe::CardError => e
     flash[:error] = e.message
     redirect_to new_charge_path
+  end
+
+  def thanks
+
   end
 
   private
     def set_description
       @description = "Dice!"
     end
-    
+
     def amount_to_be_charged
       @amount = 100
     end
