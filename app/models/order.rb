@@ -24,7 +24,7 @@ class Order < ApplicationRecord
     line_items.collect { |li| li.valid? ? (li.quantity * li.unit_price) : 0 }.sum
   end
 
-private
+  private
   def set_order_status
     self.status_id = 1
   end

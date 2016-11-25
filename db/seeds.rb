@@ -62,4 +62,4 @@ Status.create!([
   {name: "Placed"},
   {name: "Shipped"},
   {name: "Cancelled"}
-  ])
+])
