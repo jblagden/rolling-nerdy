@@ -26,11 +26,11 @@ class ChargesController < ApplicationController
 
   private
 
-    def set_description
-      @description = "Dice!"
-    end
+  def set_description
+    @description = "Dice!"
+  end
 
-    def amount_to_be_charged
-      @amount = 100
-    end
+  def amount_to_be_charged
+    @amount = 100
+  end
 end

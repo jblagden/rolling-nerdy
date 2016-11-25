@@ -5,6 +5,7 @@ AllCops:
     - db/schema.rb
     - db/migrate/*
     - bin/*
+    - db/seeds.rb
 
 Documentation:
   Enabled: false
