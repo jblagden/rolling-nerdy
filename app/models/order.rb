@@ -25,6 +25,7 @@ class Order < ApplicationRecord
   end
 
   private
+
   def set_order_status
     self.status_id = 1
   end

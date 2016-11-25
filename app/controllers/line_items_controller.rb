@@ -19,7 +19,9 @@ class LineItemsController < ApplicationController
     @line_item.destroy
     @line_items = @order.line_items
   end
+
   private
+
   def line_item_params
     params.require(:line_item).permit(:quantity, :product_id)
   end

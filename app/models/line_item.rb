@@ -36,6 +36,7 @@ class LineItem < ApplicationRecord
   end
 
   private
+
   def product_present
     if product.nil?
       errors.add(:product, "is not valid or is not active.")
