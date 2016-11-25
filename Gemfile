@@ -22,14 +22,14 @@ gem 'carrierwave'
 
 group :development do
   
-# Better Errors
+  # Better Errors
   gem 'better_errors'
   gem 'binding_of_caller'
 
-# Rails Panel
+  # Rails Panel
   gem 'meta_request'
 
-# RuboCop
+  # RuboCop
   gem 'rubocop', require: false
 end
 

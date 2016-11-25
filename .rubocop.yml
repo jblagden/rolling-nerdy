@@ -5,7 +5,6 @@ AllCops:
     - db/schema.rb
     - db/migrate/*
     - bin/*
-  RunRailsCops: true
 
 Documentation:
   Enabled: false

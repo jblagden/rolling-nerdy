@@ -36,11 +36,11 @@ Metrics/MethodLength:
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle, SupportedStyles, IndentationWidth.
 # SupportedStyles: outdent, indent
-#Style/AccessModifierIndentation:
-#  Exclude:
-#    - 'app/controllers/line_items_controller.rb'
-#    - 'app/models/line_item.rb'
-#    - 'app/models/order.rb'
+# Style/AccessModifierIndentation:
+#   Exclude:
+#     - 'app/controllers/line_items_controller.rb'
+#     - 'app/models/line_item.rb'
+#     - 'app/models/order.rb'
 
 # Offense count: 1
 # Configuration parameters: EnforcedStyle, SupportedStyles.
@@ -51,19 +51,19 @@ Style/ClassAndModuleChildren:
 
 # Offense count: 13
 # Cop supports --auto-correct.
-Style/CommentIndentation:
-  Exclude:
-    - 'Gemfile'
-    - 'app/admin/colour.rb'
-    - 'app/admin/country.rb'
-    - 'app/admin/customer.rb'
-    - 'app/admin/line_item.rb'
-    - 'app/admin/material.rb'
-    - 'app/admin/order.rb'
-    - 'app/admin/product.rb'
-    - 'app/admin/province.rb'
-    - 'app/admin/status.rb'
-    - 'app/admin/type.rb'
+# Style/CommentIndentation:
+#   Exclude:
+#     - 'Gemfile'
+#     - 'app/admin/colour.rb'
+#     - 'app/admin/country.rb'
+#     - 'app/admin/customer.rb'
+#     - 'app/admin/line_item.rb'
+#     - 'app/admin/material.rb'
+#     - 'app/admin/order.rb'
+#     - 'app/admin/product.rb'
+#     - 'app/admin/province.rb'
+#     - 'app/admin/status.rb'
+#     - 'app/admin/type.rb'
 
 # Offense count: 49
 Style/Documentation:
