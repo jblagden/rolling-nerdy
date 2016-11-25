@@ -31,7 +31,7 @@ class Order < ApplicationRecord
   end
 
   def update_subtotal
-    #Update our subtotal property using the subtotal method
+    # Update our subtotal property using the subtotal method
     self[:subtotal] = subtotal
   end
 end

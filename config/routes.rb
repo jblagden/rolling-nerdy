@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get 'thanks', to: 'charges#thanks', as: 'thanks'
   resources :charges, only: [:new, :create]
-  #devise_for :users
+  # devise_for :users
   resources :products, only: [:index]
   resource :cart, only: [:show]
   resources :line_items, only: [:create, :update, :destroy]
