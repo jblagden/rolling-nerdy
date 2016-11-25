@@ -31,6 +31,6 @@ class ChargesController < ApplicationController
   end
 
   def amount_to_be_charged
-    @amount = 100
+    @amount = (current_order.subtotal * 100).to_i
   end
 end
