@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+# Stripe payment processing
+gem 'stripe'
+
+# dotenv - sercure storage of environment variables
+gem 'dotenv-rails', :groups => [:development, :test]
+
 # Active Admin gems
 gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
