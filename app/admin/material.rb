@@ -15,5 +15,4 @@ ActiveAdmin.register Material do
   #   permitted
   # end
 
-
 end

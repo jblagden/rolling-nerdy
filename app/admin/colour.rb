@@ -14,5 +14,4 @@ ActiveAdmin.register Colour do
   #   permitted
   # end
 
-
 end

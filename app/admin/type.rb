@@ -14,5 +14,4 @@ ActiveAdmin.register Type do
   #   permitted
   # end
 
-
 end

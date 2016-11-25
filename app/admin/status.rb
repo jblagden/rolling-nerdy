@@ -15,5 +15,4 @@ ActiveAdmin.register Status do
   #   permitted
   # end
 
-
 end

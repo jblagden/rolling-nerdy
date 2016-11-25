@@ -15,5 +15,4 @@ ActiveAdmin.register Province do
   #   permitted
   # end
 
-
 end

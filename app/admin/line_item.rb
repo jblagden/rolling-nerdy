@@ -14,5 +14,4 @@ ActiveAdmin.register LineItem do
   #   permitted
   # end
 
-
 end
