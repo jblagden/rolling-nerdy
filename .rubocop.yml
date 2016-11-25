@@ -6,12 +6,16 @@ AllCops:
     - db/migrate/*
     - bin/*
     - db/seeds.rb
+    - test/*
 
 Documentation:
   Enabled: false
 
 DotPosition:
   EnforcedStyle: trailing
+
+Metrics/LineLength:
+  Max: 160
 
 Style/EmptyLinesAroundBlockBody:
   Enabled: false

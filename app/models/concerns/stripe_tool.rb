@@ -1,3 +1,4 @@
+# rubocop:disable CircularArgumentReference
 module StripeTool
   def self.create_customer(email: email, stripe_token: stripe_token)
     Stripe::Customer.create(
@@ -15,3 +16,4 @@ module StripeTool
     )
   end
 end
+# rubocop:enable CircularArgumentReference
