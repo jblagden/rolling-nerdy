@@ -21,7 +21,7 @@ gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'carrierwave'
 
 group :development do
-  
+
   # Better Errors
   gem 'better_errors'
   gem 'binding_of_caller'
