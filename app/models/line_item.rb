@@ -38,15 +38,11 @@ class LineItem < ApplicationRecord
   private
 
   def product_present
-    if product.nil?
-      errors.add(:product, "is not valid or is not active.")
-    end
+    errors.add(:product, "is not valid or is not active.") if product.nil?
   end
 
   def order_present
-    if order.nil?
-      errors.add(:order, "is not a valid order.")
-    end
+    errors.add(:order, "is not a valid order.") if order.nil?
   end
 
   def finalize

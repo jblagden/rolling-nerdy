@@ -48,12 +48,12 @@ Style/GuardClause:
 #     - 'Gemfile'
 #     - 'config/initializers/stripe.rb'
 
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: MaxLineLength.
-Style/IfUnlessModifier:
-  Exclude:
-    - 'app/models/line_item.rb'
+# # Offense count: 2
+# # Cop supports --auto-correct.
+# # Configuration parameters: MaxLineLength.
+# Style/IfUnlessModifier:
+#   Exclude:
+#     - 'app/models/line_item.rb'
 
 # Offense count: 18
 # Cop supports --auto-correct.
