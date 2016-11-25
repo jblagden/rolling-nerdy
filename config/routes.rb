@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'charges/new'
+
+  get 'charges/create'
+  resources :charges, only: [:new, :create]
+  devise_for :users
   resources :products, only: [:index]
   resource :cart, only: [:show]
   resources :line_items, only: [:create, :update, :destroy]
