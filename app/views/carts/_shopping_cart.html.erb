@@ -15,4 +15,9 @@
   <% @line_items.each do |line_item| %>
     <%= render 'carts/cart_row', product: line_item.product, line_item: line_item, show_total: true %>
   <% end %>
+  <div class="col-xs-8 text-right">
+    <div class="btn-group">
+      <%= link_to "Checkout", new_charge_path, class: "btn btn-primary" %>
+    </div>
+  </div>
 <% end %>
